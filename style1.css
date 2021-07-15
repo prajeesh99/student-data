@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: slateblue;
+}
+.stores{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+    
+}
+.stores:hover{
+    color: white;
+    text-decoration: none;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.nav-link:hover{
+    color: white;
+    background-color: burlywood;
+    border-radius: 60px;
+}
+.search{
+    
+    border-radius: 60px;
+    outline: none;
+}
+.btn0{
+    
+    outline: none;
+    border: none;
+    background-color:crimson;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    padding: 3px;
+}
+.main{
+    background: url(img.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    color: red;
+    border: white 2px;
+    background-color: rgb(250, 234, 234);
+    border-radius: 60px;
+}
+.main h2{
+    font-size: 4rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+
+}
+.Science h1{
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Commerce h1{
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Humanities h1{
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card {
+    min-height: 200px;
+    height: 430px;
+    
+}
+.btn1{
+    color: white;
+    background-color: #ff6347;
+    padding: 3px;
+    border-radius: 6px;
+}

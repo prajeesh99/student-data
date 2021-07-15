@@ -1,0 +1,31 @@
+body{
+background-color: gray;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    color: white;
+  }
+th {
+    text-align: left;
+  }
+.praj{
+    width: 800px;
+    align-items: center;
+    margin-left: 291px;
+
+}
+.image{
+    margin-left: 562px;
+    margin-top: 39px;
+}
+.back{
+    text-decoration: none;
+    background-color: tomato;
+    color: black;
+    padding: 5px;
+    border-radius: 60px;
+}
+.back:hover{
+    background-color: blanchedalmond;
+}
